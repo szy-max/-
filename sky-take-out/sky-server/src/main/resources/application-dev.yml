@@ -1,0 +1,29 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host:  mysql8
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 123456
+  alioss:
+    bucket-name: web-suzy
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    region: cn-beijing
+  redis:
+    host:  my-redis
+    port: 6379
+    password: 123456
+    database: 0
+  wechat:
+    appid: wx359990af11eb4b26
+    secret: 8ac6662fddce5a76b00de4a0a3c00a1c
+    grant-type: authorization_code
+    login-url: https://api.weixin.qq.com/sns/jscode2session
+    mchid:
+    mchSerialNo:
+    privateKeyFilePath:
+    apiV3Key:
+    weChatPayCertFilePath:
+    notifyUrl:
+    refundNotifyUrl:
